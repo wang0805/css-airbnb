@@ -1,3 +1,47 @@
+/*
+
+shld not use bootstrap for image with such a small width, in this case should do dispplay: inline block;
+
+*/
+
 h1 {
   color: salmon;
 }
+
+img {
+  width: 350px;
+  height: 450px;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  color: white;
+  font-weight:bold;
+  font-family: sans-serif;
+}
+
+.head {
+  text-align: center;
+  color: #8A8484;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 50px
+}
+
+.head2 {
+  text-align: center;
+  color: #8A8484;
+  padding-bottom: 50px;
+  font-size: 30px
+}
+
+.wrapper {
+  text-align: center;
+  padding-top: 50px;
+}
+
